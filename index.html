@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <div class="d-icon">
+            <ion-icon name="menu-outline" id="open-menu" class="active"></ion-icon>
+            <ion-icon name="close-outline" id="close-menu"></ion-icon>
+        </div>  
+
+        <nav class="navegation">
+            <ul class="list-header">
+                <li><a href="#s-home" lang="en" class="active">Home</a></li>
+                <li><a href="#s-sobre" class="test">Sobre</a></li>
+                <li><a href="#s-portifolio" class="test">Portifólio</a></li>
+                <li><a href="#s-contato" class="test" >Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--    Seção Home  -->
+
+        <section id="s-home" class="secoes">
+            <section class="s-intro">
+                <h1>Olá, eu sou 
+                    <br>
+                    <strong class="strong-name">Marcos Pablo</strong>
+                </h1>
+
+                <h2>Desenvolvedor front-end</h2>
+
+                <p>
+                    <span id="span-text-responsive">Amante do design e da tecnologia estou</span> sempre pronto para desenvolver sua página web com interfaces bonitas e modernas
+                </p>
+
+                <div class="s-contact-me">
+                    <a  href="https://www.instagram.com/marcospablo.dev/">Entre em contato</a>
+                </div>
+            </section>
+
+            <section class="s-img">
+                <picture>
+                    <source media="(max-width: 320px)" srcset="imagens/foto/foto-home-mt.png" type="image/png">
+
+                    <source media="(max-height: 630px)" srcset="imagens/foto/foto-home-mt-g.png" type="image/png">
+
+                    <source media="(max-width: 780px)" srcset="imagens/foto/foto-home-mt-g.png" type="image/png">
+
+                    <source media="(max-width: 900px)" srcset="imagens/foto/foto-home-pp.png" type="image/png">
+
+                    <source media="(max-width: 1100px)" srcset="imagens/foto/foto-home-p.png" type="image/png">
+
+                    <source media="(max-width: 1300px)" srcset="imagens/foto/foto-home-m.png" type="image/png">
+                    
+                    <img src="imagens/foto/foto-home-g.png" alt="Desenvolvedor front-end Marcos Pablo">
+                </picture>
+                
+                <div class="fundoimg"></div>
+            </section>
+
+            <div class="fundo-home"></div>
+        </section>
+
+        <!--    Seção Sobre -->
+            <!--    Sobre mim   -->
+
+        <article id="s-sobre" class="secoes">
+            <section class="s-sobre-mim">
+                <section class="s-title-sobre">
+                        <h2 class="title-sobre">Sobre mim</h2>
+                        <span class="underline-sobre-mim"></span>
+                </section>
+
+                <section class="s-img-sobre">
+                    <div>
+                        <img src="imagens/foto-sobre.png" alt="Marcos Pablo">
+                    </div>
+                </section>
+
+                <p>Atualmente trabalho como técnico em aparelhos celulares e estou buscando uma transição de carreira como desenvolvedor front-end e futuramente almejo o cenário fullstack.</p>
+            </section>
+
+            <!--    Habilidades   -->
+
+            <section class="s-skills">
+                <h2 class="title-skills">Habilidades</h2>
+                <span class="underline"></span>
+
+                <section class="s-linguagens">
+                    <section class="s-html s-logo">
+                        <ion-icon name="logo-html5"></ion-icon>
+                        <h3><abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr></h3>
+                    </section>
+
+                    <section class="s-css s-logo">
+                        <ion-icon name="logo-css3"></ion-icon>
+                        <h3><abbr title="Folhas de Estilo em Cascata">CSS</abbr></h3>
+                    </section>
+
+                    <section class="s-js s-logo">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                        <h3>JavaScript</h3>
+                    </section>
+                </section>
+
+                <p class="paragraph-skills">
+                    Possuo também conhecimentos básicos em <strong>marketing digital</strong>, além de estar estudando 
+                    <strong class="strong-underline">
+                        <abbr title="Interface do Usuário">UI</abbr>/<abbr title="Experiência do Usuário">UX</abbr> design
+                    </strong>. 
+                    <br>
+                    <em>Tudo para está te entragando um projeto da mais alta qualidade.</em>
+                </p>
+            </section>
+
+            <!--    Serviços   -->
+
+            <section class="s-services">                
+                <h2 class="title-services">O que posso fazer por você?</h2>
+                <span class="underline"></span>
+
+                <section class="cards-services">
+                    <section class="s-card-services">                       
+                        <h3>Criação de Sites</h3>
+
+                        <p>Desenvolvo sites simples e elegantes para pequenas empresas.</p>
+                    </section>
+
+                    <section class="s-card-services">
+                        <h3>Portifólio</h3>
+
+                        <p>Vocé é Fotografo, Programador, Designer ou faz trabalhos do qual necessita ter um portifólio pessoal para estar mostrando seus projetos? Se sim, então pode contar comigo para estar criando um portifólio realmente atraente para seus visitantes.</p>
+                    </section>
+
+                    <section class="s-card-services">
+                        <h3>Landing Page</h3>
+
+                        <p>Está trabalhando com Marketing Digital e precisa de alguém para criar uma Landing Page para seu produto? Com meus conhecimentos posso desenvolver uma <abbr title="Landing Page">LP</abbr> altamente conversível.</p>
+                    </section>
+                </section>
+            </section>
+        </article>
+
+        <!--Seção Portifólio-->
+
+        <section id="s-portifolio" class="secoes">
+            <h2 class="title-portifolio">Portifólio</h2>
+            <span class="underline"></span>
+
+            <p class="paragraph-portifolio">Clique nas imagens para ver mais informações.</p>
+            
+            <section class="s-projetos">
+                <figure class="fig-project" id="fig-1" >
+                    <picture>
+                        <source media="(max-width: 240px)" srcset="imagens/projetos/img-180px/projeto-fr-180.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 310px)" srcset="imagens/projetos/img-240px/projeto-fr-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 550px)" srcset="imagens/projetos/img-300px/projeto-fr-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 660px)" srcset="imagens/projetos/img-240px/projeto-fr-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 780px)" srcset="imagens/projetos/img-300px/projeto-fr-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 1100px)" srcset="imagens/projetos/img-240px/projeto-fr-240.jpg" type="image/jpeg">
+
+                        <img src="imagens/projetos/img-300px/projeto-fr-300.jpg" alt="formulário de registro">
+                    </picture>
+
+                    <figcaption>
+                        <h3>Formulário de Registro</h3>
+
+                        <p>Projeto de um formulário de registro usando HTML e CSS</p>
+
+                        <ul class="links-figcaption">
+                            <li>
+                                <a href="https://marcos-pablo-dev.github.io/register-form/" target="_blank" class="link-page" id="lp-1">Ver site</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Marcos-Pablo-Dev/register-form" target="_blank" class="link-github" id="lg-1"><ion-icon name="logo-github"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <figure class="fig-project" id="fig-2" >
+                    <picture>
+                        <source media="(max-width: 240px)" srcset="./imagens/projetos/img-180px/projeto-nt-180.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 310px)" srcset="./imagens/projetos/img-240px/projeto-nt-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 550px)" srcset="./imagens/projetos/img-300px/projeto-nt-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 660px)" srcset="./imagens/projetos/img-240px/projeto-nt-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 780px)" srcset="./imagens/projetos/img-300px/projeto-nt-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 1100px)" srcset="./imagens/projetos/img-240px/projeto-nt-240.jpg" type="image/jpeg">
+
+                        <img src="./imagens/projetos/img-300px/projeto-nt-300.jpg" alt="Agência de turismo ao Japão">
+                    </picture>
+
+                    <figcaption>
+                        <h3>Nippon Tours</h3>
+
+                        <p>Projeto de uma página de agência de turismo usando HTML, CSS e JS</p>
+
+                        <ul class="links-figcaption">
+                            <li>
+                                <a href="https://marcos-pablo-dev.github.io/nippon-tours/" target="_blank" class="link-page" id="lp-2">Ver site</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Marcos-Pablo-Dev/nippon-tours" target="_blank" class="link-github" id="lg-2"><ion-icon name="logo-github"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <figure class="fig-project" id="fig-3" >
+                    <picture>
+                        <source media="(max-width: 240px)" srcset="./imagens/projetos/img-180px/projeto-se-180.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 310px)" srcset="./imagens/projetos/img-240px/projeto-se-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 550px)" srcset="./imagens/projetos/img-300px/projeto-se-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 660px)" srcset="./imagens/projetos/img-240px/projeto-se-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 780px)" srcset="./imagens/projetos/img-300px/projeto-se-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 1100px)" srcset="./imagens/projetos/img-240px/projeto-se-240.jpg" type="image/jpeg">
+
+                        <img src="./imagens/projetos/img-300px/projeto-se-300.jpg" alt="Landing page para venda de um fone de ouvido sem fio">
+                    </picture>
+                    
+                    <figcaption>
+                        <h3>Sound Essence</h3>
+
+                        <p>Projeto de uma página para venda de um fone usando HTML e CSS</p>
+
+                        <ul class="links-figcaption">
+                            <li>
+                                <a href="https://marcos-pablo-dev.github.io/sound-essence/" target="_blank" class="link-page" id="lp-3">Ver site</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Marcos-Pablo-Dev/sound-essence" target="_blank" class="link-github" id="lg-3"><ion-icon name="logo-github"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <figure class="fig-project" id="fig-4" >
+                    <picture>
+                        <source media="(max-width: 240px)" srcset="./imagens/projetos/img-180px/projeto-relogio-180.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 310px)" srcset="./imagens/projetos/img-240px/projeto-relogio-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 550px)" srcset="./imagens/projetos/img-300px/projeto-relogio-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 660px)" srcset="./imagens/projetos/img-240px/projeto-relogio-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 780px)" srcset="./imagens/projetos/img-300px/projeto-relogio-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 1100px)" srcset="./imagens/projetos/img-240px/projeto-relogio-240.jpg" type="image/jpeg">
+
+                        <img src="./imagens/projetos/img-300px/projeto-relogio-300.jpg" alt="Projeto pratico de um relogio digital completo">
+                    </picture>
+
+                    <figcaption>
+                        <h3>Relógio</h3>
+
+                        <p>Projeto de um relógio digital usando HTML, CSS e JS</p>
+
+                        <ul class="links-figcaption">
+                            <li>
+                                <a href="https://marcos-pablo-dev.github.io/relogio/index.html" target="_blank" class="link-page" id="lp-4">Ver site</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Marcos-Pablo-Dev/relogio" target="_blank" class="link-github" id="lg-4"><ion-icon name="logo-github"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <figure class="fig-project" id="fig-5" >
+                    <picture>
+                        <source media="(max-width: 240px)" srcset="./imagens/projetos/img-180px/projeto-calc-180.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 310px)" srcset="./imagens/projetos/img-240px/projeto-calc-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 550px)" srcset="./imagens/projetos/img-300px/projeto-calc-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 660px)" srcset="./imagens/projetos/img-240px/projeto-calc-240.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 780px)" srcset="./imagens/projetos/img-300px/projeto-calc-300.jpg" type="image/jpeg">
+
+                        <source media="(max-width: 1100px)" srcset="./imagens/projetos/img-240px/projeto-calc-240.jpg" type="image/jpeg">
+
+                        <img src="./imagens/projetos/img-300px/projeto-calc-300.jpg" alt="Projeto prático de uma calculadora online">
+                    </picture>
+                    
+                    <figcaption>
+                        <h3>Calculadora</h3>
+
+                        <p>Projeto de uma calculadora online usando HTML, CSS e JS</p>
+
+                        <ul class="links-figcaption">
+                            <li>
+                                <a href="https://marcos-pablo-dev.github.io/calculadora/"   target="_blank" class="link-page"  id="lp-5">Ver site</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/Marcos-Pablo-Dev/calculadora" target="_blank" class="link-github" id="lg-5"><ion-icon name="logo-github"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+
+                <figure class="figure-em-breve">
+                    <section class="s-em-breve">
+                        <h3>Em breve</h3>
+                    </section>
+                </figure>
+            </section>
+
+            <div class="s-ver-repositorio">
+                <a href="https://github.com/MarcosNVG" target="_blank" class="link-ver-repositorio">Ver repositório completo</a>
+            </div>
+        </section>
+
+        <!--Seção Contato-->
+
+        <address id="s-contato" class="secoes">
+            <h2 class="title-contato">Contato</h2>
+            <span class="underline"></span>
+
+            <ul class="list-contact">
+                <li>
+                    <a href="mailto:marcos.dev56@gmail.com"><ion-icon name="mail-outline"></ion-icon>marcos.dev56@gmail.com</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/marcos-pablo-75b586321/"><ion-icon name="logo-linkedin"></ion-icon>Marcos Pablo</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61563251585238"><ion-icon name="logo-facebook"></ion-icon>Marcos Pablo Dev</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/marcospablo.dev/"><ion-icon name="logo-instagram"></ion-icon>marcospablo.dev</a>
+                </li>
+            </ul>
+        </address>
+    </main>
+
+    <footer>
+        <p>&copy;Todos os direitos reservado | 2024</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
